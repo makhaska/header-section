@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+justify-content: space-evenly;
+position: fixed;
+margin: 0 auto;
+.nav{
+width: 60%;
+ul{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+}}
+.section1{
+    padding-top: 200px;
+width: 100%;
+height: 1200px;
+display: flex;
+justify-content: center;
+.text{
+    width: 45%;
+padding-top: 20%;
+h1{
+    margin-bottom: 5%;
+}
+ul{
+    margin-bottom: 5%;
+}
+   
+}
+.gridi{
+    width: 45%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 300px;
+    gap: 0px;
+.img1{
+    margin: 3%;
+    grid-column: 1/1;
+    grid-row: 1/4;
+    background-image: url(./img/section1/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.img2{
+    margin: 3%;
+    grid-column: 2/3;
+    grid-row: 1/3;
+    background-image: url(./img/section1/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.img3{
+    margin: 3%;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-image: url(./img/section1/3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img4{
+    margin: 3%;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-image: url(./img/section1/4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img5{
+    margin: 3%;
+    grid-column: 2/4;
+    grid-row: 3/4;
+    background-image: url(./img/section1/5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+}
+}
+.section2{
+width: 100%;
+height: 1000px;
+display: flex;
+justify-content: space-around;
+.div1{
+    width: 40%;
+    background-image: url(./img/section1/6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.div2{
+    width: 40%;
+    background-image: url(./img/section1/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.element{
+    width: 90%;
+    height: 100px;
+    margin-bottom: 2%;
+    border-radius: 10px; 
+    background-color: #bbb4b4;
+    h3{
+       margin-left: 5%;
+       margin-top: 2%;
+    }
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
+
+}
+
+
+
+
+
+
+ 
+
+
+
+
